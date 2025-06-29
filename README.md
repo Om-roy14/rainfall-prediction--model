@@ -32,14 +32,16 @@ This machine learning model is built on a real-world rainfall dataset. The proje
 - seaborn, matplotlib
 - imbalanced-learn (`RandomOverSampler`)
 - XGBoost
+- Streamlit (for deployment)
 
 ---
 
 ## 📈 Workflow
 
-1. Data loading and cleaning (`Rainfall.csv`)
-2. Feature scaling using `StandardScaler`
-3. Splitting into train and test sets
-4. Oversampling to fix class imbalance
-5. Training & evaluating classifiers
+1. Load and preprocess data (`Rainfall.csv`)
+2. Scale features using `StandardScaler`
+3. Split into training and test sets
+4. Apply oversampling to balance classes
+5. Train models and evaluate using accuracy and confusion matrix
+
 
